@@ -1,0 +1,32 @@
+{
+  "version.label": {
+    "message": "Next"
+  },
+  "sidebar.tutorialSidebar.category.Authentification": {
+    "message": "Authentification"
+  },
+  "sidebar.tutorialSidebar.category.Authentification.link.generated-index.description": {
+    "message": "Let's start by signing up or logging in."
+  },
+  "sidebar.tutorialSidebar.category.Espace profil": {
+    "message": "Profile space"
+  },
+  "sidebar.tutorialSidebar.category.Espace profil.link.generated-index.description": {
+    "message": "Now that you have an account, let's set up a few details together."
+  },
+  "sidebar.tutorialSidebar.category.Sécurité de compte": {
+    "message": "Account security"
+  },
+  "sidebar.tutorialSidebar.category.Sécurité de compte.link.generated-index.description": {
+    "message": "---- to translate ---- Revue de sécurité"
+  },
+  "sidebar.tutorialSidebar.category.Tutorial - Basics": {
+    "message": "---- to translate ---- Tutorial - Basics"
+  },
+  "sidebar.tutorialSidebar.category.Tutorial - Basics.link.generated-index.description": {
+    "message": "---- to translate ---- 5 minutes to learn the most important Docusaurus concepts."
+  },
+  "sidebar.tutorialSidebar.category.Tutorial - Extras": {
+    "message": "---- to translate ---- Tutorial - Extras"
+  }
+}

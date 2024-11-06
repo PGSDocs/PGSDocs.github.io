@@ -1,0 +1,65 @@
+:root {
+  --ifm-color-primary: #0072ff;
+  --ifm-color-primary-dark: #02358b;
+  --ifm-color-primary-darker: #002d6b;
+  --ifm-color-primary-darkest: #001d4b;
+  --ifm-color-primary-light: #3391ff;
+  --ifm-color-primary-lighter: #66a9ff;
+  --ifm-color-primary-lightest: #99c1ff;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  /* -- */
+  --SectionPad: 2rem 1rem;
+  --TitreMargBot: 0.25rem;
+  --TextMargBot: 1rem;
+  /* -- */
+  --pmr-clr:#0072ff;
+  --sdr-clr: #02358b;
+  --txt-clr: #333;
+  --WtB-clr: #fff;
+  --BtW-clr: #000;
+  --IntroCardBg: #fff;
+  --UserBg: #e0ebf9;
+  --DocsCardBg: #e0ebf9;
+  --HelpBg: #e0ebf9;
+  /* -- */
+  --HeroBg: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.1)), url(/img/Idx-HeroWthBg.svg);
+}
+
+[data-theme='dark'] {
+  --ifm-color-primary: #ffea00; 
+  --ifm-color-primary-dark: #ffad00;
+  --ifm-color-primary-darker: #ffd700;
+  --ifm-color-primary-darkest: #ffcc00;
+  --ifm-color-primary-light: #f5f5a5;
+  --ifm-color-primary-lighter: #ffffd2;
+  --ifm-color-primary-lightest: #ffffeb;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  /* -- */
+  --pmr-clr: #ffea00;
+  --sdr-clr: #ffad00;
+  --txt-clr: #f5f5f5;
+  --WtB-clr: #000;
+  --BtW-clr: #fff;
+  --IntroCardBg: #000;
+  --UserBg: #333;
+  --DocsCardBg: #00224d;
+  --HelpBg: #333;
+  /* -- */
+  --HeroBg: linear-gradient(rgba(0, 0, 0, 0.2), rgba(255, 255, 255, 0.1)), url(/img/Idx-HeroBlkBg.svg);
+}
+
+/* -- */
+/*.footer__html a,
+.footer__link-item {
+  opacity: 0.8;
+  color: var(--txt-clr);
+}
+
+html a:hover,
+.footer__link-item:hover {
+  opacity: 1;
+  color: var(--pmr-clr);
+  text-decoration: none;
+}
+*/

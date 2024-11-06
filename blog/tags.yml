@@ -1,0 +1,14 @@
+PGS:
+  label: PGS
+  permalink: /pgs
+  description: Tous les articles de PRO GSETION SOFT
+  
+annonce:
+  label: Annonce
+  permalink: /annonce
+  description: Tous les articles avec Annonce
+
+docs:
+  label: Documentation
+  permalink: /docs
+  description: Tous les articles avec Documentation

@@ -1,0 +1,26 @@
+{
+  "title": {
+    "message": "PGS Docs"
+  },
+  "logo.alt": {
+    "message": "Logo"
+  },
+  "item.label.Docs": {
+    "message": "Docs"
+  },
+  "item.label.Blog": {
+    "message": "Blog"
+  },
+  "item.label.Liens utils": {
+    "message": "Userfuls links"
+  },
+  "item.label.Hire PGS (Marché d'emploi)": {
+    "message": "Hire PGS (Employement marketplace)"
+  },
+  "item.label.Forum PGS (Communauté et aide)": {
+    "message": "Forum PGS (Community and help)"
+  },
+  "item.label.Certification": {
+    "message": "Certification"
+  }
+}

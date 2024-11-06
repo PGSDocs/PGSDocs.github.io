@@ -1,0 +1,263 @@
+{
+  "theme.ErrorPageContent.title": {
+    "message": "Cette page a planté."
+  },
+  "theme.BackToTopButton.buttonAriaLabel": {
+    "message": "Retour au début de la page"
+  },
+  "theme.blog.archive.title": {
+    "message": "Archive"
+  },
+  "theme.blog.archive.description": {
+    "message": "Archive"
+  },
+  "theme.blog.paginator.navAriaLabel": {
+    "message": "Pagination de la liste des articles du blog"
+  },
+  "theme.blog.paginator.newerEntries": {
+    "message": "Nouvelles entrées"
+  },
+  "theme.blog.paginator.olderEntries": {
+    "message": "Anciennes entrées"
+  },
+  "theme.blog.post.paginator.navAriaLabel": {
+    "message": "Pagination des articles du blog"
+  },
+  "theme.blog.post.paginator.newerPost": {
+    "message": "Article plus récent"
+  },
+  "theme.blog.post.paginator.olderPost": {
+    "message": "Article plus ancien"
+  },
+  "theme.tags.tagsPageLink": {
+    "message": "Voir tous les tags"
+  },
+  "theme.colorToggle.ariaLabel": {
+    "message": "Basculer entre le mode sombre et clair (actuellement {mode})"
+  },
+  "theme.colorToggle.ariaLabel.mode.dark": {
+    "message": "mode sombre"
+  },
+  "theme.colorToggle.ariaLabel.mode.light": {
+    "message": "mode clair"
+  },
+  "theme.docs.breadcrumbs.navAriaLabel": {
+    "message": "Fil d'Ariane"
+  },
+  "theme.docs.DocCard.categoryDescription.plurals": {
+    "message": "1 élément|{count} éléments"
+  },
+  "theme.docs.paginator.navAriaLabel": {
+    "message": "Pages de documentation"
+  },
+  "theme.docs.paginator.previous": {
+    "message": "Précédent"
+  },
+  "theme.docs.paginator.next": {
+    "message": "Suivant"
+  },
+  "theme.docs.tagDocListPageTitle.nDocsTagged": {
+    "message": "Un document tagué|{count} documents tagués"
+  },
+  "theme.docs.tagDocListPageTitle": {
+    "message": "{nDocsTagged} avec \"{tagName}\""
+  },
+  "theme.docs.versionBadge.label": {
+    "message": "Version: {versionLabel}"
+  },
+  "theme.docs.versions.unreleasedVersionLabel": {
+    "message": "Ceci est la documentation de la prochaine version {versionLabel} de {siteTitle}."
+  },
+  "theme.docs.versions.unmaintainedVersionLabel": {
+    "message": "Ceci est la documentation de {siteTitle} {versionLabel}, qui n'est plus activement maintenue."
+  },
+  "theme.docs.versions.latestVersionSuggestionLabel": {
+    "message": "Pour une documentation à jour, consultez la {latestVersionLink} ({versionLabel})."
+  },
+  "theme.docs.versions.latestVersionLinkLabel": {
+    "message": "dernière version"
+  },
+  "theme.common.editThisPage": {
+    "message": "Éditer cette page"
+  },
+  "theme.common.headingLinkTitle": {
+    "message": "Lien direct vers {heading}"
+  },
+  "theme.lastUpdated.atDate": {
+    "message": " le {date}"
+  },
+  "theme.lastUpdated.byUser": {
+    "message": " par {user}"
+  },
+  "theme.lastUpdated.lastUpdatedAtBy": {
+    "message": "Dernière mise à jour{atDate}{byUser}"
+  },
+  "theme.navbar.mobileVersionsDropdown.label": {
+    "message": "Versions"
+  },
+  "theme.NotFound.title": {
+    "message": "Page introuvable"
+  },
+  "theme.tags.tagsListLabel": {
+    "message": "Tags :"
+  },
+  "theme.admonition.caution": {
+    "message": "attention"
+  },
+  "theme.admonition.danger": {
+    "message": "danger"
+  },
+  "theme.admonition.info": {
+    "message": "info"
+  },
+  "theme.admonition.note": {
+    "message": "remarque"
+  },
+  "theme.admonition.tip": {
+    "message": "conseil"
+  },
+  "theme.admonition.warning": {
+    "message": "attention"
+  },
+  "theme.AnnouncementBar.closeButtonAriaLabel": {
+    "message": "Fermer"
+  },
+  "theme.blog.sidebar.navAriaLabel": {
+    "message": "Navigation article de blog récent"
+  },
+  "theme.CodeBlock.copied": {
+    "message": "Copié"
+  },
+  "theme.CodeBlock.copyButtonAriaLabel": {
+    "message": "Copier le code"
+  },
+  "theme.CodeBlock.copy": {
+    "message": "Copier"
+  },
+  "theme.CodeBlock.wordWrapToggle": {
+    "message": "Activer/désactiver le retour à la ligne"
+  },
+  "theme.DocSidebarItem.expandCategoryAriaLabel": {
+    "message": "Développer la catégorie '{label}' de la barre latérale"
+  },
+  "theme.DocSidebarItem.collapseCategoryAriaLabel": {
+    "message": "Réduire la catégorie '{label}' de la barre latérale"
+  },
+  "theme.NavBar.navAriaLabel": {
+    "message": "Principal"
+  },
+  "theme.navbar.mobileLanguageDropdown.label": {
+    "message": "Langues"
+  },
+  "theme.NotFound.p1": {
+    "message": "Cette page a peut-être été supprimé ou déplacé définitivement."
+  },
+  "theme.NotFound.p2": {
+    "message": "Nous vous conseillons d’utiliser la barre de recherche pour effectuer la recherche par mot clé de ce que vous cherchez, sinon contacter le support pour reporter l’erreur. Merci."
+  },
+  "theme.TOCCollapsible.toggleButtonLabel": {
+    "message": "Sur cette page"
+  },
+  "theme.blog.post.readMore": {
+    "message": "Lire plus"
+  },
+  "theme.blog.post.readMoreLabel": {
+    "message": "En savoir plus sur {title}"
+  },
+  "theme.blog.post.readingTime.plurals": {
+    "message": "Une minute de lecture|{readingTime} minutes de lecture"
+  },
+  "theme.docs.breadcrumbs.home": {
+    "message": "Page d'accueil"
+  },
+  "theme.docs.sidebar.collapseButtonTitle": {
+    "message": "Réduire le menu latéral"
+  },
+  "theme.docs.sidebar.collapseButtonAriaLabel": {
+    "message": "Réduire le menu latéral"
+  },
+  "theme.docs.sidebar.navAriaLabel": {
+    "message": "Docs sidebar"
+  },
+  "theme.docs.sidebar.closeSidebarButtonAriaLabel": {
+    "message": "Fermer la barre de navigation"
+  },
+  "theme.navbar.mobileSidebarSecondaryMenu.backButtonLabel": {
+    "message": "← Retour au menu principal"
+  },
+  "theme.docs.sidebar.toggleSidebarButtonAriaLabel": {
+    "message": "Ouvrir/fermer la barre de navigation"
+  },
+  "theme.docs.sidebar.expandButtonTitle": {
+    "message": "Déplier le menu latéral"
+  },
+  "theme.docs.sidebar.expandButtonAriaLabel": {
+    "message": "Déplier le menu latéral"
+  },
+  "theme.SearchBar.noResultsText": {
+    "message": "Aucun résultat"
+  },
+  "theme.SearchBar.seeAllOutsideContext": {
+    "message": "Voir tous les résultats sans \"{context}\""
+  },
+  "theme.SearchBar.searchInContext": {
+    "message": "Voir tous les résultats avec \"{context}\""
+  },
+  "theme.SearchBar.seeAll": {
+    "message": "Voir tous les résultats"
+  },
+  "theme.SearchBar.label": {
+    "message": "Rechercher"
+  },
+  "theme.SearchPage.existingResultsTitle": {
+    "message": "Voir tous les résultats pour \"{query}\""
+  },
+  "theme.SearchPage.emptyResultsTitle": {
+    "message": "Chercher le fichier"
+  },
+  "theme.SearchPage.searchContext.everywhere": {
+    "message": "Partout"
+  },
+  "theme.SearchPage.documentsFound.plurals": {
+    "message": "1 fichier trouvé|{count} fichiers trouvés"
+  },
+  "theme.SearchPage.noResultsText": {
+    "message": "Aucun fichier n'a été trouvé"
+  },
+  "theme.blog.post.plurals": {
+    "message": "Un article|{count} articles"
+  },
+  "theme.blog.tagTitle": {
+    "message": "{nPosts} tagués avec « {tagName} »"
+  },
+  "theme.blog.author.pageTitle": {
+    "message": "{authorName} - {nPosts}"
+  },
+  "theme.blog.authorsList.pageTitle": {
+    "message": "Auteurs"
+  },
+  "theme.blog.authorsList.viewAll": {
+    "message": "Voir tous les auteurs"
+  },
+  "theme.contentVisibility.unlistedBanner.title": {
+    "message": "Page non répertoriée"
+  },
+  "theme.contentVisibility.unlistedBanner.message": {
+    "message": "Cette page n'est pas répertoriée. Les moteurs de recherche ne l'indexeront pas, et seuls les utilisateurs ayant un lien direct peuvent y accéder."
+  },
+  "theme.contentVisibility.draftBanner.title": {
+    "message": "Page brouillon"
+  },
+  "theme.contentVisibility.draftBanner.message": {
+    "message": "Cette page est un bbrouillon. Il sera visible uniquement en mode dev et sera exclut de la production build."
+  },
+  "theme.ErrorPageContent.tryAgain": {
+    "message": "Réessayer"
+  },
+  "theme.common.skipToMainContent": {
+    "message": "Aller au contenu principal"
+  },
+  "theme.tags.tagsPageTitle": {
+    "message": "Tags"
+  }
+}

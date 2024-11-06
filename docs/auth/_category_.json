@@ -1,0 +1,8 @@
+{
+  "label": "Authentification",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Commençons par nous inscrire ou nous connecter."
+  }
+}

@@ -1,0 +1,438 @@
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  /* HERO */
+  .HeroContainer {
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+  .HeroImage {
+    display: none;
+  }
+
+  .HeroTitle {
+    font-size: 1.8rem;
+  }
+
+  .HeroSubtitle {
+    font-size: 1rem;
+  }
+
+  .HeroBtns {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  /* IntroSection */
+  .IntroContainer {
+    display: block;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .IntroCard {
+    width: 80% !important; 
+    margin: 0.5rem 0;
+  }
+
+  /* UserSection */
+  .UserSection {
+    flex-direction: column;
+    padding: 1rem 0 !important;
+  }
+
+  .UserCard {
+    padding: 0 !important;
+    width: 100% !important;
+  }
+
+  .UserText {
+    width: 100%;
+    padding-right: 0 !important;
+  }
+
+  .UserImage {
+    flex: 0 1 100%;
+    max-width: 100%;
+    margin-top: 1rem;
+  }
+
+  /* UserSection */
+  .DocsCard {
+    width: 100%;
+    height: auto;
+  }
+
+  .DocsSection h1 {
+    text-align: center;
+    margin: 0 0 1rem; 
+  }
+
+  .DocsContainer {
+    flex-direction: column; 
+    align-items: center; 
+  }
+
+  /*HelpSection */
+  .HelpSection {
+    display: block;
+    flex-direction: column;
+    margin: auto;
+    padding: var(--SectionPad);
+    align-items: center;
+  }
+
+  .HelpImg {
+    display: none;
+  }
+
+  .HelpContCard {
+    display: flex;
+  }
+
+  .HelpCard {
+    width: calc(50% - 2rem) !important;
+    flex-wrap: wrap; 
+    min-height: 350px !important;
+  }
+
+  .HelpText {
+    background-color: transparent !important;
+    width: 100%;
+    margin-left: 0;
+    border-radius: 10px;
+    border: none !important;
+    box-shadow: none !important;
+  }
+}
+
+
+/* GENERAL */
+.mainContent {
+  padding: 0;
+}
+
+
+/* HERO */
+.HeroContainer {
+  display: flex;
+  max-width: 1000px;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.HeroBanner {
+  background-image: var(--HeroBg);
+  background-size: contain;
+  background-position: center;
+  padding: 2rem;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.HeroImage {
+  flex: 0 1 35%;
+  object-fit: cover;
+  max-width: 35%;
+  transform: skew(10deg);
+}
+
+.HeroText {
+  flex: 1;
+  text-align: center;
+}
+
+.HeroTitle {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: var(--pmr-clr);
+}
+
+.HeroTitleVar {
+  color: var(--BtW-clr);
+  text-decoration: underline;
+  font-variant: small-caps;
+}
+
+.HeroSubtitle {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+  color: var(--BtW-clr);
+}
+
+.HeroBtns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+
+/* COMMUN */
+.IntroSection h1,
+.HelpSection h1 {
+  color: var(--pmr-clr) !important;
+}
+.IntroSection h1,
+.UserSection h1,
+.DocsSection h1,
+.HelpSection h1 {
+  margin-bottom: var(--TitreMargBot);
+}
+
+.IntroSection p,
+.UserSection p,
+.DocsSection p,
+.HelpSection p {
+  margin-bottom: var(--TextMargBot);
+}
+
+.IntroCard h3,
+.UserCard h3,
+.DocsCard h3,
+.HelpSection h3 {
+  color: var(--txt-clr);
+  margin-bottom: var(--TitreMargBot);
+}
+
+.IntroCard p,
+.UserCard p {
+  color: var(--txt-clr);
+  margin-bottom: var(--TextMargBot);
+}
+
+
+/* IntroSection */
+.IntroSection { 
+  text-align: center;
+  padding: var(--SectionPad);
+}
+
+.IntroContainer {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.IntroCard {
+  position: relative;
+  background: var(--IntroCardBg);
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 1rem;
+  padding: 1rem;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  width: calc(33.33% - 2rem);
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.IntroCard:hover {
+  border: 1px solid var(--pmr-clr);
+  transform: scale(1.05);
+}
+
+.IntroBGImg {
+  position: absolute;
+  background-size: cover;
+  background-position: center;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.2;
+  z-index: 0;
+  transition: 0.6s ease;
+}
+
+.IntroBGImg:hover {
+  scale: 1.5;
+}
+
+.iconContainer {
+  position: relative;
+  text-align: center;
+  margin-bottom: var(--TextMargBot);
+  z-index: 1;
+}
+
+.IntroIcone {
+  width: 40%; 
+  height: auto;
+}
+
+
+/* UserSection */
+.UserSection {
+  background-color: var(--UserBg);
+  display: flex;
+  margin: auto;
+  padding: 2rem;
+  align-items: center; 
+}
+
+.UserText { 
+ width: 80%;
+ padding-right: 20px;
+}
+
+.UserCard {
+  padding: 0 20px;
+  width: 80%;
+}
+
+.UserImgContainer {
+  flex: 0 1 40%;
+  max-width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.UserImg {
+  max-width: 100%;
+  height: auto;
+  box-shadow: 10px 10px 2px rgba(0, 0, 0, 0.4);
+}
+
+.UserCard h3 {
+  color: var(--pmr-clr) !important;
+}
+
+
+/* DocsSection */
+.DocsSection {
+  text-align: center;
+  padding: var(--SectionPad);
+}
+
+.DocsSection h1 {
+  text-align: right;
+  margin-right: 5rem;
+}
+
+.DocsContainer {
+  display: flex;
+  margin: 0 auto;
+}
+
+.DocsCard {
+  background: var(--DocsCardBg);
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  margin: 0.5rem auto;
+  text-align: left;
+  padding: 1rem;
+  border: 1px solid var(--BtW-clr);
+  width: 80%;
+  height: auto;
+  min-height: 200px;
+  border-radius: 10px;
+}
+
+.DocsCard:hover {
+  box-shadow: 0 5px 2px var(--txt-clr);
+  border: 1px solid var(--pmr-clr);
+}
+
+.DocsCardTitle {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  padding: 0 10px;
+  width: 100%;
+}
+
+.DocsCardTitle a:hover {
+  transform: translateX(10px) scale(1.2);
+  transition: all 0.3s ease-in-out;
+}
+
+
+/*HelpSection */
+.HelpSection {
+  display: flex;
+  text-align: center;
+  margin: auto;
+  padding: var(--SectionPad);
+  align-items: center;
+}
+
+.HelpImgContainer {
+  flex: 0 1 30%;
+  max-width: 30%;
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center;
+}
+
+.HelpImg {
+  max-width: 100%;
+  height: auto;
+  box-shadow: -10px 10px 2px rgba(0, 0, 0, 0.4);
+}
+
+.HelpText {
+  background-color: var(--HelpBg);
+  width: 80%;
+  margin-left: 20px;
+  border-radius: 10px;
+  border: 1px solid var(--BtW-clr);
+  box-shadow: 10px 10px 2px rgba(0, 0, 0, 0.4);
+}
+
+.HelpContCard {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.HelpCard {
+  background-color: var(--WtB-clr);
+  border: 1px solid var(--BtW-clr);
+  width: calc(33.33% - 2rem);
+  height: auto;
+  min-height: 250px;
+  margin: auto;
+  margin-bottom: var(--TextMargBot);
+  padding: 1rem;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+.HelpCard a {
+  color: var(--sdr-clr);
+  text-decoration: none;
+}
+
+.HelpCard a:hover {
+  text-decoration: underline; 
+}
+
+.ToggleButton {
+  background-color: var(--pmr-clr);
+  color: var(--WtB-clr);
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.ToggleButton:hover {
+  background-color: var(--sdr-clr);
+}
