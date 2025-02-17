@@ -1,11 +1,10 @@
-
-let countdownNumber = 5;
+let countdownNumber = 4;
 const countdownElement = document.querySelector(".countdown");
 
 function updateCountdown() {
   countdownNumber--;
   countdownElement.textContent = countdownNumber;
-  if (countdownNumber === 0) {
+  if (countdownNumber === 2) {
     window.location.href = getNewURL();
   }
 }
